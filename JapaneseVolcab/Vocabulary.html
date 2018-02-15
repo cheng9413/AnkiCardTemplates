@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Import external css-->
+<link href="Vocabulary.css" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Anki Japanese Vocab Card</title>
+</head>
+<body>
+<h1>詞語</h1>
+<div id="expression" class="jp content">
+  {{Expression}}{{Audio}}
+  <hr>
+  <div id="hiragana">{{Hiragana}}</div>
+</div>
+
+<h1>解釋</h1>
+<div id="meaning" class="content">{{Meaning}}</div>
+<h1>例句</h1>
+<div id="examples" class="jp content">{{Examples}}</div>
+<h1>筆記</h1>
+<div id="notes" class="content">{{Notes}}</div>
+<h1>字典</h1>
+<div id="dictionary" class="content imageContainer">
+  <div id="google" class="imageDiv">
+    <a id="googleLink">
+      <img class="searchImage"
+           src="google.png"
+           alt="Google Image">
+    </a>
+  </div>
+
+    <div id="weblio" class="imageDiv">
+      <a id="weblioLink">
+      <img class="searchImage"
+           src="weblio.png"
+           alt="Weblio Image">
+      </a>
+    </div>
+
+    <div id="ojad" class="imageDiv">
+      <a id="ojadLink">
+      <img class="searchImage"
+           src="OJAD.png"
+           alt="OJAD Image">
+      </a>
+    </div>
+</div>
+<script src="Vocabulary.js"></script>
+
+
+</body>
+</html>

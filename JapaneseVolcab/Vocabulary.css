@@ -1,0 +1,94 @@
+* {
+  margin: 0 5% 0 5%;
+  background-color: #DEE5E5;
+}
+
+html {
+  font-size: 16px;
+  background-color: #3C3C3C;
+}
+
+body {
+  margin-top: 5%;
+  background-color: #3C3C3C;
+}
+
+hr {
+  margin: 5% 2% 2% 2%;
+
+}
+
+.jp {
+  font-family: "Noto Sans CJK JP Medium", "MS Mincho", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: #306BAC;
+  border-radius: 25% 25% 0 0;
+  padding: 1% 3%;
+  border-style: solid;
+  border-bottom-style: none;
+  display: inline-block;
+}
+
+.content {
+  border-style: solid;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+  padding: 5% 2%;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+
+}
+
+.imageContainer {
+
+}
+
+.imageDiv {
+  width: 30%;
+  display: inline-block;
+}
+
+#google {
+  flex: calc(1200 / 406);
+  margin-bottom: 5%;
+}
+
+#weblio {
+  flex: calc(800 / 450);
+  margin-bottom: 5%;
+}
+
+#ojad {
+  flex: calc(205 / 110);
+}
+
+#expression {
+  text-align: center;
+}
+
+#hiragana {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#dictionary {
+
+}
+
+#meaning {
+
+}
+
+#examples {
+
+}
+
+#notes {
+
+}
